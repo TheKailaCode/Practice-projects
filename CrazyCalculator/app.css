@@ -1,0 +1,133 @@
+/*div {
+    margin-top: 100px;
+}
+
+#calcBody {
+    background-color: magenta;
+    padding-top: 10px;
+    width: 40vw;
+    height: 55vh;
+    border-radius: 25px;
+    font-weight: 800;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 25px 10px 25px;
+    text-overflow: unset;
+
+}
+
+li {
+    list-style: none;
+    background-color: lightgrey;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 8px;
+    width: 15%;
+    padding: 5px;
+}
+
+li:hover {
+    background-color: rgba(112, 128, 144, 0.726);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(2, 186, 186);
+    font-weight: 900;
+    font-size: 30px;
+}
+
+
+
+
+#displayScreen {
+    background-color: lightgrey;
+    border-radius: 5px;
+    height: 40px;
+    width: 30vw;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 5px auto;
+}
+
+h1 {
+    font-size: 35px;
+    color: rgb(2, 186, 186);
+}*/
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.calculator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: magenta;
+    border-radius: 25px;
+    padding: 75px 40px 40px 40px;
+}
+
+.calculator-screen {
+    width: 100%;
+    font-size: 5rem;
+    height: 80px;
+    border: none;
+    background-color: white;
+    color: black;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.calculator-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px;
+    padding-bottom: 5px;
+}
+
+button {
+    height: 60px;
+    background: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 4rem;
+    font-weight: 700;
+    color: black;
+    margin: 7px;
+    padding: 5px;
+    flex: 1 0 16%;
+}
+
+button:hover {
+    background-color: #eaeaea67;
+}
+
+.all-clear {
+    background-color: aqua;
+    color: white;
+    font-size: 3rem;
+}
